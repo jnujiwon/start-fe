@@ -1,8 +1,33 @@
 console.log('app.js');
 
 
-// var age = 20;
+ var age = 20;
 
+ var isMan = true; // 부울형
+ var isMan = "true"; // 스트링 형태
+
+ console.log(isMan);
+
+ var month = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+
+ 
+ 
+ 
+ 
+ /*
+ var log = function(str){
+     console.log(str);
+ }
+ 
+ log('hello');
+
+ function log(str) {
+    console.log(str);
+  }
+
+  log('hello');
+*/
 // function log(str) {
 //   console.log(str);
 // }
