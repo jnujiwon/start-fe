@@ -1,6 +1,8 @@
 console.log('app.js');
 
 
+// var age = 20;
+
 // function log(str) {
 //   console.log(str);
 // }
