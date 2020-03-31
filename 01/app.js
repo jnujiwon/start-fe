@@ -10,7 +10,19 @@ console.log('app.js');
 
  var month = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
+ var student = {
+    nick: '박지원',
+    age: 26,
+    area: 'jeju',
+    hobby: ['html','fishig']
+  }
 
+ var menu = {
+     nick: '후라이드 치킨',
+     price: 16000,
+     brand: '아라주는 엄마치킨',
+     count: 1
+ };
  
  
  
