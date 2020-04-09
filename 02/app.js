@@ -81,9 +81,28 @@ else {
 //     console.log(a);
 // })();
 
-function sum(x, y) {
+/*function sum(x, y) {
     if (!y) y = 1;
     return x + y;
 }
 
-console.log(sum(3));
+console.log(sum(3));*/
+
+/*
+function average(array){
+  let result = 0;
+  for(let item of array){
+    result += item;
+  }
+  return result/array.length;
+}
+
+var count = [10,20,30,40,50,60,70,100];
+console.log("평균값 : " + average(count));*/
+
+for(i=2; i<10; i++){
+    for(j=1; j<10; j++){
+        console.log(i + '*' + j + '=' + (i*j));
+    }
+    console.log('\n');
+}
