@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width:100px;height:100px;background-color:blue ;
+        }
+        div {
+            margin: 10px;
+        }
+        #debug{
+            width:100px;height:100px;background-color:red ;
+        }
+    </style>
+</head>
+<body>
+    <body onload="alert(1)">
+
+        <script>
+        //프로퍼티로 주기
+        window.load=function(){
+            alert("load");
+        };
+        
+        //DOM 레벨2
+        window.addEventListener('load', function(){
+            alert("load");
+        });
+        </script> 
+    <div id="debug" style="width:100px;height:100px;background-color:red ;">
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <ul id="list">
+        <li>1</li>
+        <li>2</li>
+        </ul>
+    <script src="app.js"></script> </script>
+    
+    <ul id="list">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        </ul>
+        <script>
+        var app = document.getElementById("list");
+        
+        app.addEventListener("click", function(event) {
+            if(event.target.nodeName == "LI"){
+                //한개의 event리스너로 모든 li에 click이벤트 등록과 비슷
+            }
+        });
+        </script>
+
+
+</body>
+</html>
