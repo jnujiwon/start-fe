@@ -1,0 +1,19 @@
+{
+  "name": "10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnujiwon/start-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnujiwon/start-fe/issues"
+  },
+  "homepage": "https://github.com/jnujiwon/start-fe#readme",
+  "description": ""
+}
