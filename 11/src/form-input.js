@@ -1,16 +1,16 @@
-import todoModel from './todo-model';
 import { render } from './html-render';
+
+import todoModel from './todo-model';
 
 const $inputForm = document.querySelector('#input-form');
 const $input = document.querySelector('#input');
 
-function init() {
+function init(data) {
   $inputForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    const text = $input.Value;
+    const text = $input.value;
     if (!text) return;
-
     $input.value = '';
 
     data.push({
